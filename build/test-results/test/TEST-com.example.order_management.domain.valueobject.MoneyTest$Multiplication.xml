@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="multiplication" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:16:48" hostname="RubenS" time="0.005">
+<testsuite name="multiplication" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:22:38" hostname="RubenS" time="0.006">
   <properties/>
   <testcase name="shouldMultiplyByBigDecimal()" classname="com.example.order_management.domain.valueobject.MoneyTest$Multiplication" time="0.002"/>
   <testcase name="shouldMultiplyByInteger()" classname="com.example.order_management.domain.valueobject.MoneyTest$Multiplication" time="0.001"/>

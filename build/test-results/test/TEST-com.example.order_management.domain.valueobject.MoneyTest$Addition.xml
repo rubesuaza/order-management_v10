@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="addition" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:16:48" hostname="RubenS" time="0.005">
+<testsuite name="addition" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:22:38" hostname="RubenS" time="0.007">
   <properties/>
-  <testcase name="shouldAddSameCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Addition" time="0.001"/>
-  <testcase name="shouldThrowWhenAddingDifferentCurrencies()" classname="com.example.order_management.domain.valueobject.MoneyTest$Addition" time="0.002"/>
+  <testcase name="shouldAddSameCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Addition" time="0.002"/>
+  <testcase name="shouldThrowWhenAddingDifferentCurrencies()" classname="com.example.order_management.domain.valueobject.MoneyTest$Addition" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="equality" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:22:38" hostname="RubenS" time="0.021">
+  <properties/>
+  <testcase name="shouldBeEqualWhenAllFieldsMatch()" classname="com.example.order_management.domain.valueobject.AddressTest$Equality" time="0.003"/>
+  <testcase name="shouldNotBeEqualWhenFieldsDiffer()" classname="com.example.order_management.domain.valueobject.AddressTest$Equality" time="0.002"/>
+  <testcase name="shouldNotBeEqualToNull()" classname="com.example.order_management.domain.valueobject.AddressTest$Equality" time="0.002"/>
+  <testcase name="shouldBeEqualToSelf()" classname="com.example.order_management.domain.valueobject.AddressTest$Equality" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

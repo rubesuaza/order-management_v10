@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="place order (PENDING -&gt; PAID)" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:22:38" hostname="RubenS" time="0.013">
+  <properties/>
+  <testcase name="shouldPlaceOrderWhenTotalMeetsMinimum()" classname="com.example.order_management.domain.model.OrderTest$PlaceOrder" time="0.002"/>
+  <testcase name="shouldAllowPlaceExactlyAtMinimum()" classname="com.example.order_management.domain.model.OrderTest$PlaceOrder" time="0.003"/>
+  <testcase name="shouldRejectPlaceWhenTotalBelowMinimum()" classname="com.example.order_management.domain.model.OrderTest$PlaceOrder" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

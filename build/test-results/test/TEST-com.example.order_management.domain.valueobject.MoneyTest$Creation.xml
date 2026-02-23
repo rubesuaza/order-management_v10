@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="creation" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:22:38" hostname="RubenS" time="0.007">
+  <properties/>
+  <testcase name="shouldCreateMoneyWithAmountAndCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.002"/>
+  <testcase name="shouldCreateMoneyWithAmountAndDefaultCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.001"/>
+  <testcase name="shouldCreateZeroMoney()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

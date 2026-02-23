@@ -44,6 +44,20 @@ class OrderTest {
         }
 
         @Test
+        void shouldRejectNullCustomerId() {
+            assertThatThrownBy(() -> Order.create(null, validItems))
+                    .isInstanceOf(IllegalArgumentException.class)
+                    .hasMessageContaining("customerId");
+        }
+
+        @Test
+        void shouldRejectNullItems() {
+            assertThatThrownBy(() -> Order.create(customerId, null))
+                    .isInstanceOf(InvalidItemException.class)
+                    .hasMessageContaining("at least one");
+        }
+
+        @Test
         void shouldRejectEmptyOrder() {
             assertThatThrownBy(() -> Order.create(customerId, List.of()))
                     .isInstanceOf(InvalidItemException.class)

@@ -49,7 +49,21 @@ class OrderItemTest {
             Money negativePrice = new Money(new BigDecimal("-5.00"));
             assertThatThrownBy(() -> new OrderItem(PRODUCT_ID, 1, negativePrice))
                     .isInstanceOf(InvalidItemException.class)
-                    .hasMessageContaining("price");
+                    .hasMessageContaining("unitPrice");
+        }
+
+        @Test
+        void shouldRejectNullProductId() {
+            assertThatThrownBy(() -> new OrderItem(null, 1, VALID_PRICE))
+                    .isInstanceOf(IllegalArgumentException.class)
+                    .hasMessageContaining("productId");
+        }
+
+        @Test
+        void shouldRejectNullUnitPrice() {
+            assertThatThrownBy(() -> new OrderItem(PRODUCT_ID, 1, null))
+                    .isInstanceOf(IllegalArgumentException.class)
+                    .hasMessageContaining("unitPrice");
         }
     }
 

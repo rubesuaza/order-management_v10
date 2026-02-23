@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cancel order" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:05:32" hostname="RubenS" time="0.047">
+  <properties/>
+  <testcase name="shouldCancelPendingOrder()" classname="com.example.order_management.domain.model.OrderTest$CancelOrder" time="0.012"/>
+  <testcase name="shouldRejectCancelShippedOrder()" classname="com.example.order_management.domain.model.OrderTest$CancelOrder" time="0.018"/>
+  <testcase name="shouldCancelPaidOrder()" classname="com.example.order_management.domain.model.OrderTest$CancelOrder" time="0.005"/>
+  <testcase name="shouldRejectCancelDeliveredOrder()" classname="com.example.order_management.domain.model.OrderTest$CancelOrder" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

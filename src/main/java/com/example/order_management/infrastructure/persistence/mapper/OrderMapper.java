@@ -57,6 +57,6 @@ public class OrderMapper {
     }
 
     private Order reconstructOrder(UUID id, OrderStatus status, java.time.LocalDateTime createdAt, UUID customerId, List<OrderItem> items) {
-        return OrderReconstructor.reconstruct(new OrderId(id), status, createdAt, customerId, items);
+        return Order.reconstruct(new OrderId(id), status, createdAt, customerId, items);
     }
 }

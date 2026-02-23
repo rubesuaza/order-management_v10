@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="creation" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:11:58" hostname="RubenS" time="0.008">
+<testsuite name="creation" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:16:48" hostname="RubenS" time="0.006">
   <properties/>
-  <testcase name="shouldCreateMoneyWithAmountAndCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.002"/>
+  <testcase name="shouldCreateMoneyWithAmountAndCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.001"/>
   <testcase name="shouldCreateMoneyWithAmountAndDefaultCurrency()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.002"/>
   <testcase name="shouldCreateZeroMoney()" classname="com.example.order_management.domain.valueobject.MoneyTest$Creation" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

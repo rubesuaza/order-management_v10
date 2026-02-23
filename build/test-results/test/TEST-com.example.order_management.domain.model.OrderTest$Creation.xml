@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="creation" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:11:58" hostname="RubenS" time="0.028">
+<testsuite name="creation" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:16:48" hostname="RubenS" time="0.022">
   <properties/>
   <testcase name="shouldRejectNullItems()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.003"/>
-  <testcase name="shouldCalculateTotalFromMultipleItems()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.002"/>
+  <testcase name="shouldCalculateTotalFromMultipleItems()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.001"/>
   <testcase name="shouldRejectNullCustomerId()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.002"/>
-  <testcase name="shouldCreateOrderWithValidItems()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.01"/>
-  <testcase name="shouldRejectEmptyOrder()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.003"/>
+  <testcase name="shouldCreateOrderWithValidItems()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.008"/>
+  <testcase name="shouldRejectEmptyOrder()" classname="com.example.order_management.domain.model.OrderTest$Creation" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

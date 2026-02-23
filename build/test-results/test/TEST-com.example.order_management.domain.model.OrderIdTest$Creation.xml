@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="creation" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:11:58" hostname="RubenS" time="0.014">
+<testsuite name="creation" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T15:16:48" hostname="RubenS" time="0.019">
   <properties/>
-  <testcase name="shouldRejectNullValue()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.004"/>
-  <testcase name="shouldGenerateNewOrderId()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.004"/>
-  <testcase name="shouldCreateOrderIdWithValidUuid()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.001"/>
+  <testcase name="shouldRejectNullValue()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.006"/>
+  <testcase name="shouldGenerateNewOrderId()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.006"/>
+  <testcase name="shouldCreateOrderIdWithValidUuid()" classname="com.example.order_management.domain.model.OrderIdTest$Creation" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

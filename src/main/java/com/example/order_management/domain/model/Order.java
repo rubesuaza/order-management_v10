@@ -35,6 +35,13 @@ public final class Order {
         this.totalAmount = calculateTotal(items);
     }
 
+    /**
+     * Reconstructs an Order from persistence (bypasses create validation).
+     */
+    public static Order reconstruct(OrderId id, OrderStatus status, LocalDateTime createdAt, UUID customerId, List<OrderItem> items) {
+        return new Order(id, status, createdAt, items, customerId);
+    }
+
     public static Order create(UUID customerId, List<OrderItem> items) {
         if (customerId == null) {
             throw new IllegalArgumentException("customerId cannot be null");
